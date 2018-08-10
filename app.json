@@ -6,8 +6,8 @@
     "elasticsearch", "elastic", "bonsai"
   ],
   "website": "https://bonsai.io/",
-  "repository": "https://github.com/omc/heroku-kibana.git#v5.4.3",
-  "logo": "https://cdn.rawgit.com/omc/heroku-kibana/master/kibana.svg",
+  "repository": "https://github.com/dugjason/heroku-kibana.git#v5.4.3",
+  "logo": "https://cdn.rawgit.com/dugjason/heroku-kibana/master/kibana.svg",
   "success_url": "/",
   "env": {
     "ELASTICSEARCH_URL": {
@@ -16,7 +16,7 @@
       "required": false
     }
   },
-  "addons": [ "bonsai:sandbox" ],
+  "addons": [ "bonsai:sandbox-6" ],
   "buildpacks": [
     {
       "url": "https://github.com/omc/heroku-buildpack-kibana.git#v5.4.3"
